@@ -1,28 +1,116 @@
 .App {
   text-align: center;
+  background-color:gray;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home-navbar */
+.home-body h2{
+margin-top: 20px
 }
+.Nav-Bar{
+  background-color: #282c34;
+  height: 100px;
 
+}
+.header{
+  color: #61dafb;
+  margin:20px;
+}
+.Nav-Bar img{
+  width: 80px;
+  margin-left:20px;
+  margin-top:9px;
+}
+.link{
+  display: flex;
+}
+.link ul{
+  padding-left:20px;
+  padding-top: 25px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+.link ul li a{
+  color: black;
+  border-radius: 4px;
+  padding: 15px;
+  margin-left: 40px;
+  text-decoration: none ;
+  transition-duration: 0.5s;
+}
+.link ul li a:hover{
+transition-duration: 0.5s;
+color:blue;
+padding:20px;
+}
+.home{
+  background-color: #cecece;
+}
+.form-inline{
+  margin-left: 600px;
+  display:inline-flex;
+}
+.form-inline button{
+  margin-left: 20px
+
+}
+/* Home-carousel*/
+.d-block{
+  height: 700px;
+}
+.home-body h3{
+  color: white;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: #000000bd;
+  width: 400px
+}
+.Cours{
+  text-decoration: none;
+  color: green;
+}
+/* Home-Body*/
+.home-body p{
+  color: white;
+}
+/* Home-footer*/
+.footer{
+  background-color: #3a3a3a;
+  height: 250px;
+}
+.fb{
+  margin-right: 10px
+}
+p{
+  color: white
+}
+h3{
+  color: white;
+}
+h4{
+  color:white
+}
+/**Cours**/
+.Cards{
+  
+}
+.Cardslist1{
+  display: inline-flex;
+  margin-bottom: 20px
+}
+.Cardslist2{
+  display: inline-flex;
+  margin-bottom: 20px
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
